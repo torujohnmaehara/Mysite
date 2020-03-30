@@ -12,11 +12,12 @@ header {
 .header-item {
   width: 1024px;
   padding: 0,auto;
+  text-align: center;
 }
 .header-item-image {
   height: 70px;
 }
-.nav-list {
+nav {
   display: inline-block;
 }
 .nav-list-item {
@@ -25,4 +26,103 @@ header {
   float: left;
   list-style: none;
   line-height: 70px;
+  padding-right: 30px;
+}
+.main-visual {
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+.main-visual-title {
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-top: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+}
+.portfolio {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.portfolio-contents {
+  width: 920px;
+  text-align: center;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #EC715F;
+  text-align: center;
+}
+.portfolio-text {
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.portfolio-box1 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-box2 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-box3 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-box4 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-box5 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-box6 {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
 }
