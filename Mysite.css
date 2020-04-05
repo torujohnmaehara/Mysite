@@ -37,19 +37,7 @@ header {
   padding-right: 30px;
   float: left;
 }
-#input {
-  display: none;
-}
 
-#content {
-  background-color: lightpink;
-  width: 200px;
-  height: 100%;
-  transform: translateX(-200px);
-}
-#input:checked ~ #content {
-  transform: translateX(0px);
-}
 .main-visual {
   height: 650px;
   width: 100%;
@@ -310,14 +298,14 @@ footer {
     width: 100%;
   }
   .line {
-    width: 20px;
-    height: 3px;
+    width: 30px;
+    height: 4px;
     background-color: white;
-    margin: 3px;
-    float: none;
+    margin: 6px;
   }
   .menu-sumafo {
-  　border: 1px solid white;
+    border: 2px solid white;
+    float: right;
   }
   .nav-list-item {
     display: none;
