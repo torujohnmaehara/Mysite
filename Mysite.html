@@ -9,11 +9,11 @@
   </head>
 
 <body>
-  <header>
-  	<?php if ( wp_is_mobile() ) : ?>
-   	     <div class="header-item clearfix">
-         <img class="header-item-image" src="img/logo.png">
-         <div class="nav-list">
+<header>
+<!---pc--->
+    <div class="header-item clearfix">
+      <img class="header-item-image" src="img/logo.png">
+        <div class="nav-list">
   	      <nav>
   	        <ul class="nav-list">
   		     <li class="nav-list-item">Portforio</li>
@@ -22,9 +22,26 @@
   		     <li class="nav-list-item">Contact</li>
   	        </ul>
           </nav>
-         </div>
-    <?php endif; ?>
-  </header>
+        </div>
+    </div>
+<!----sumafo--->
+<div class="menu-smafo">
+  <input type="checkbox" id="input">
+  <label for="input">
+  	<div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </label>
+  <div id="content">
+  	<ul id="link">
+  	  <li>Portforio</li>
+      <li>Feature</li>
+      <li>Profile</li>
+      <li>Contact</li>
+  	</ul>
+  </div>
+</div>
+</header>
   <div class="main-visual">
    <p class="main-visual-title">Lorem Ipsum</p>
    <p class="main-visual-text">simple dummy text
@@ -52,10 +69,10 @@
 
     <div class="title-box"></div>
     <p class="feature-text">It is a long established fact that a reader will be distracted by the readble<br>content of a page when lokking at its layout. <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-
-  <div class="feature-box1">
-    <div class="feature-icom">
-      <i class="fas fa-microphone-stand"></i>
+  <div class="feature-box">
+    <div class="feature-box1">
+     <div class="feature-icom">
+      <i class="fas fa-drum"></i>
     </div>
    <h2 class="feature-subtitle">Strength1</h2>
      <p class="feauture-text">In preparation for the result announcement, "Course Registration and Grade Status" on CAMPUS WEB will be unavailable from 11:00 a.m. to 4:59 p.m. on April 4 (Sat). You will be unable to confirm courses that you have registered during this time. Please be sure to confirm your application details with time to spare.</p>
@@ -71,7 +88,7 @@
 
   <div class="feature-box3">
     <div class="feature-icon">
-      <i class="fas fa-guitar-electric"></i>
+      <i class="fas fa-drum"></i>
     </div>
    <h2 class="feature-subtitle">Strength3</h2>
      <p class="feauture-text">In preparation for the result announcement, "Course Registration and Grade Status" on CAMPUS WEB will be unavailable from 11:00 a.m. to 4:59 p.m. on April 4 (Sat). You will be unable to confirm courses that you have registered during this time. Please be sure to confirm your application details with time to spare.</p>
@@ -104,23 +121,25 @@
      <h1 class="title">Contact</h1>
        <div class="title-box"></div>
         <p class="contact-text">It is a long established fact that a reader will be distracted by the readble<br>content of a page when lokking at its layout. <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-       <div class="contact-box">
          <div class="contact-box-left">
           <div class="contact-box-contents">
-           <h2 class="contact-subtitle">Mail</h2>
-           <p class="contact-mail">xxx@xxx.com</p>
-           <h2 class="contact-subtitle">Tel</h2>
-           <p class="contact-tel">000-0000-0000</p>
+           <div class="contact-box">
+             <h2 class="contact-subtitle">Mail</h2>
+             <p class="contact-mail">xxx@xxx.com</p>
+             <h2 class="contact-subtitle">Tel</h2>
+             <p class="contact-tel">000-0000-0000</p>
+           </div>
           </div>
          </div>
          <div class="contact-box-right">
           <div class="contact-box-contents">
-           <h2 class="contact-subtitle">SNS</h2>
-           <div class="contact-icon">
-             <i class="fab fa-facebook-f"></i>
-             <i class="fab fa-twitter"></i>
-             <i class="fab fa-instagram"></i>
-           </div>
+           <div class="contact-box">
+             <h2 class="contact-subtitle">SNS</h2>
+             <div class="contact-icon">
+               <i class="fab fa-facebook-f"></i>
+               <i class="fab fa-twitter"></i>
+               <i class="fab fa-instagram"></i>
+             </div>
           </div>
          </div>
        </div>

@@ -19,6 +19,7 @@ header {
 .header-item {
   width: 1024px;
   padding: 0,auto;
+  margin: auto;
 }
 .header-item-image {
   height: 70px;
@@ -36,8 +37,26 @@ header {
   padding-right: 30px;
   float: left;
 }
-
-
+#input {
+  display: none;
+}
+.line {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border: 1px solid white;
+  float: left;
+}
+#content {
+  background-color: lightpink;
+  width: 200px;
+  height: 100%;
+  transform: translateX(-200px);
+}
+#input:checked ~ #content {
+  transform: translateX(0px);
+}
 .main-visual {
   height: 650px;
   width: 100%;
@@ -141,22 +160,32 @@ header {
   font-size: 16px;
   color: #000000;
 }
+.feature-box {
+  float: left;
+  display: inline-block;
+}
 .feature-box1 {
   display: inline-block;
   width: 320px;
   height: auto;
   margin-right: 10px;
+  float: left;
 }
 .feature-box2 {
   display: inline-block;
   width: 320px;
   height: auto;
   margin-right: 10px;
+  float: left;
 }
 .feature-box3 {
   display: inline-block;
   width: 320px;
   height: auto;
+  float: left;
+}
+.fa-drum {
+ font-size: 60px;
 }
 .feature-subtitle {
   font-size: 20px;
@@ -236,11 +265,12 @@ header {
 .contact-box-left {
   width: 400px;
   float: left;
-  text-align: left;
+  margin: 0 auto;
 }
 .contact-subtitle {
   font-size: 20px;
   margin-bottom: 5px;
+  text-align: left;
 }
 .contact-mail {
   margin-bottom: 20px;
@@ -248,7 +278,7 @@ header {
 .contact-box-right {
   width: 400px;
   float: left;
-  text-align: left;
+  margin: 0 auto;
 }
 .contact-box-contents {
   margin: 0 auto;
@@ -280,11 +310,14 @@ footer {
 
 
 @media screen and (max-width:767px) {
- header {
-  width: 100%;
+  header {
+    width: 100%;
   }
- .header-item {
-   width: 100%;
+  .header-item {
+    width: 100%;
+  }
+  .nav-list-item {
+  	display: none;
   }
   .main-visual {
     background-image: url(img/code.png);
@@ -329,6 +362,21 @@ footer {
   	width: 90%;
   	margin: 0 auto;
   }
+  .feature-box1 {
+  	float: none;
+  	margin-bottom: 10px;
+  	margin-right: 0;
+  }
+  .feature-box2 {
+  	float: none;
+  	margin-bottom: 10px;
+  	margin-right: 0;
+  }
+  .feature-box3 {
+  	float: none;
+  	margin-bottom: 10px;
+  	margin-right: 0;
+  }
 
   .profile {
   	width: 100%;
@@ -355,6 +403,13 @@ footer {
   .contact-contents {
   	width: 90%;
   	margin: 0 auto;
+  	float: none;
+  }
+  .contact-box-right {
+  	float: none;
+  }
+  .contact-box-left {
+  	float: none;
   }
   .contact-subtitle {
   	text-align: center;
@@ -367,6 +422,12 @@ footer {
   }
   .contact-icon {
   	text-align: center;
+  }
+  .fa-facebook-f {
+    margin-right: 8px;
+  }
+  .fa-twitter {
+    margin-right: 8px;
   }
 }
 @media screen and (min-width: 768px) {
