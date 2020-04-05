@@ -40,14 +40,7 @@ header {
 #input {
   display: none;
 }
-.line {
-  width: 20px;
-  height: 3px;
-  background-color: white;
-  margin: 3px;
-  border: 1px solid white;
-  float: left;
-}
+
 #content {
   background-color: lightpink;
   width: 200px;
@@ -316,8 +309,18 @@ footer {
   .header-item {
     width: 100%;
   }
+  .line {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+    float: none;
+  }
+  .menu-sumafo {
+  　border: 1px solid white;
+  }
   .nav-list-item {
-  	display: none;
+    display: none;
   }
   .main-visual {
     background-image: url(img/code.png);
@@ -328,100 +331,100 @@ footer {
   }
 
   .portfolio {
-  	width: 90%;
-  	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
   .portfolio-contents {
     width: 90%;
   }
   .portfolio-box {
-  	margin: 0 auto;
-  	float: none;
+    margin: 0 auto;
+    float: none;
   }
   .portfolio-box:nth-child(1) {
-  	display: none;
+    display: none;
   }
   .portfolio-box:nth-child(3) {
-  	display: none;
+    display: none;
   }
   .portfolio-box:nth-child(4) {
-  	margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   .portfolio-box:nth-child(5) {
-  	display: none;
+    display: none;
 
   }
   .portfolio-box:nth-child(6) {
-  	margin-right: 10px;
+    margin-right: 10px;
   }
 
   .feature {
-  	width: 100px;
+    width: 100px;
   }
   .feature-contents {
-  	width: 90%;
-  	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
   .feature-box1 {
-  	float: none;
-  	margin-bottom: 10px;
-  	margin-right: 0;
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
   .feature-box2 {
-  	float: none;
-  	margin-bottom: 10px;
-  	margin-right: 0;
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
   .feature-box3 {
-  	float: none;
-  	margin-bottom: 10px;
-  	margin-right: 0;
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
 
   .profile {
-  	width: 100%;
+    width: 100%;
   }
   .profile-contents {
-  	width: 90%;
-  	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
   .profile-subtitle {
-  	text-align: center;
-  	margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
   }
   .profile-intro {
-  	width: 90%;
-  	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
   .profile-text2 {
-  	text-align: center;
+    text-align: center;
   }
 
   .contact {
-  	width: 100%;
+    width: 100%;
   }
   .contact-contents {
-  	width: 90%;
-  	margin: 0 auto;
-  	float: none;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
   }
   .contact-box-right {
-  	float: none;
+    float: none;
   }
   .contact-box-left {
-  	float: none;
+    float: none;
   }
   .contact-subtitle {
-  	text-align: center;
+    text-align: center;
   }
   .contact-mail {
-  	text-align: center;
+    text-align: center;
   }
   .contact-tel {
-  	text-align: center;
+    text-align: center;
   }
   .contact-icon {
-  	text-align: center;
+    text-align: center;
   }
   .fa-facebook-f {
     margin-right: 8px;
@@ -432,6 +435,6 @@ footer {
 }
 @media screen and (min-width: 768px) {
   #nav-open {
-  	display: none;
+    display: none;
   }
 }
